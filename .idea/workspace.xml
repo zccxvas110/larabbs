@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cda78e-b0f5-4a86-9e7d-7312463c6736" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_messages.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/root.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/root.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shared/_messages.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -132,6 +126,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\www\larabbs\larabbs\resources\views\shared" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\www\larabbs\larabbs" />
     </key>
@@ -167,7 +164,7 @@
       <workItem from="1575359024787" duration="4888000" />
       <workItem from="1575364626202" duration="4222000" />
       <workItem from="1575446170587" duration="15000" />
-      <workItem from="1575514938189" duration="6749000" />
+      <workItem from="1575514938189" duration="6972000" />
     </task>
     <servers />
   </component>
