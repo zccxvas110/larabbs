@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39cda78e-b0f5-4a86-9e7d-7312463c6736" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -165,7 +165,7 @@
       <workItem from="1575359024787" duration="4888000" />
       <workItem from="1575364626202" duration="4222000" />
       <workItem from="1575446170587" duration="15000" />
-      <workItem from="1575514938189" duration="9738000" />
+      <workItem from="1575514938189" duration="10517000" />
     </task>
     <servers />
   </component>
