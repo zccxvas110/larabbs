@@ -4,6 +4,7 @@
     <list default="true" id="39cda78e-b0f5-4a86-9e7d-7312463c6736" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/EnsureEmailIsVerified.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/EnsureEmailIsVerified.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +176,7 @@
       <workItem from="1575364626202" duration="4222000" />
       <workItem from="1575446170587" duration="15000" />
       <workItem from="1575514938189" duration="22213000" />
-      <workItem from="1575598605383" duration="11413000" />
+      <workItem from="1575598605383" duration="11832000" />
     </task>
     <servers />
   </component>
