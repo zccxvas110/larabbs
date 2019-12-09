@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39cda78e-b0f5-4a86-9e7d-7312463c6736" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -134,13 +134,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\www\larabbs\larabbs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\www\larabbs\larabbs\app\Models" />
       <recent name="F:\www\larabbs\larabbs\app" />
       <recent name="F:\www\larabbs\larabbs\resources\views\shared" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\www\larabbs\larabbs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -175,7 +175,8 @@
       <workItem from="1575364626202" duration="4222000" />
       <workItem from="1575446170587" duration="15000" />
       <workItem from="1575514938189" duration="22213000" />
-      <workItem from="1575598605383" duration="16252000" />
+      <workItem from="1575598605383" duration="19754000" />
+      <workItem from="1575868433369" duration="233000" />
     </task>
     <servers />
   </component>
