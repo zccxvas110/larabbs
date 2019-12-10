@@ -18,7 +18,7 @@ class UsersController extends Controller
         return view('users.edit',compact('user'));
     }
 
-    public function update(Request $request, User $user)
+    public function update(UserRequest $request, User $user)
     {
 
         $user->update($request->all());
