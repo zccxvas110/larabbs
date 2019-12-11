@@ -36,7 +36,7 @@ class ImageUploadHandler
         $file->move($upload_path,$filename);
 
         return [
-          "path" => confug('app.url')."/$forder_name/$filename"
+          "path" => config('app.url')."/$forder_name/$filename"
         ];
 
     }
