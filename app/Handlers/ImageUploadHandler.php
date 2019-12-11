@@ -10,11 +10,11 @@ class ImageUploadHandler
     //允许一下后缀图片上传
     protected $allowed_ext = ['png','jpg','gif','jpeg'];
 
-    public function save($file,$forder,$file_prefix)
+    public function save($file,$forder,$file_prefix,$max_width = false)
     {
         //构建存储的文件夹规则,如:upload/images/avatar/201912/11
         //文件夹切割能让查找更效率
-        $forder_name = "upload/images/{$forder}/".date('Ym/d',time(),$max_width = false);
+        $forder_name = "upload/images/{$forder}/".date('Ym/d',time());
 
         // 文件具体存储的物理路径，`public_path()` 获取的是 `public` 文件夹的物理路径。
         // 值如：/home/vagrant/Code/larabbs/public/uploads/images/avatars/201709/21/
