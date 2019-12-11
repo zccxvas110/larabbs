@@ -36,7 +36,7 @@
               <input type="file" name="avatar" class="form-control-file">
               @if($user->avatar)
                 <br>
-                <img class="thumbnail img-responsive" stc="{{ $user->avater }}" witch="200">
+                <img class="thumbnail img-responsive" src="{{ $user->avater }}" witch="200">
               @endif
             </div>
 
