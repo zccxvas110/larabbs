@@ -6,6 +6,7 @@ use App\Models\Topic;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
+use Zxing\QrReader;
 
 class TopicsController extends Controller
 {
@@ -16,7 +17,10 @@ class TopicsController extends Controller
 
 	public function index()
 	{
-		$topics = Topic::paginate();
+//        $qrcode = new QrReader('path/to_image');
+//        $text = $qrcode->text();
+//        dd($text);
+        $topics = Topic::paginate();
 		return view('topics.index', compact('topics'));
 	}
 
