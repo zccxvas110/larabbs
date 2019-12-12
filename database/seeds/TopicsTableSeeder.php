@@ -25,9 +25,9 @@ class TopicsTableSeeder extends Seeder
                     ->each(function ($topic, $index) use($user_ids,$category_ids,$faker)
                     {
                         // 从用户 ID 数组中随机取出一个并赋值
-                        $topic->user_id = $faker->randomElememnt($user_ids);
+                        $topic->user_id = $faker->randomElement($user_ids);
 
-                        $topic->category_id = $faker->randomElememnt($category_ids);
+                        $topic->category_id = $faker->randomElement($category_ids);
                     });
 
         Topic::insert($topics->toArray());
