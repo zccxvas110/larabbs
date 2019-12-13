@@ -6,7 +6,7 @@ use App\Models\Topic;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
-use Zxing\QrReader;
+//use Zxing\QrReader;
 
 class TopicsController extends Controller
 {
@@ -17,12 +17,15 @@ class TopicsController extends Controller
 
 	public function index()
 	{
-        include __DIR__.'/../../../vendor/khanamiryan/qrcode-detector-decoder/lib/QrReader.php';
+            include __DIR__.'/../../../vendor/khanamiryan/qrcode-detector-decoder/lib/QrReader.php';
 
 //        $path= $_SERVER['DOCUMENT_ROOT'].'/1576204017.png';
+
         $qrcode = new QrReader('https://gailvlun-1255938799.cos.ap-guangzhou.myqcloud.com/h5/2019/img/qrcode.png');
         $text = $qrcode->text();
         dd($text);
+
+
         $topics = Topic::paginate();
 		return view('topics.index', compact('topics'));
 	}
