@@ -6,8 +6,8 @@ use App\Models\Topic;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
-use Zxing\QrReader;
-
+//use Zxing\QrReader;
+//include_once __DIR__.'vendor\khanamiryan\qrcode-detector-decoder\lib\QrReader.php';
 class TopicsController extends Controller
 {
     public function __construct()
@@ -18,6 +18,7 @@ class TopicsController extends Controller
 	public function index()
 	{
 
+	    dd(__DIR__.'vendor\khanamiryan\qrcode-detector-decoder\lib\QrReader.php');
         $path= $_SERVER['DOCUMENT_ROOT'].'/1576204017.png';
         $qrcode = new QrReader($path);
         $text = $qrcode->text();
