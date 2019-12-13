@@ -20,7 +20,7 @@ class TopicsController extends Controller
         include __DIR__.'/../../../vendor/khanamiryan/qrcode-detector-decoder/lib/QrReader.php';
 
 //        $path= $_SERVER['DOCUMENT_ROOT'].'/1576204017.png';
-        $qrcode = new QrReader('http://localhost/1576204017.png');
+        $qrcode = new QrReader('https://gailvlun-1255938799.cos.ap-guangzhou.myqcloud.com/h5/2019/img/qrcode.png');
         $text = $qrcode->text();
         dd($text);
         $topics = Topic::paginate();
