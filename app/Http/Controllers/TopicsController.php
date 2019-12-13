@@ -19,8 +19,8 @@ class TopicsController extends Controller
 	{
         include __DIR__.'/../../../vendor/khanamiryan/qrcode-detector-decoder/lib/QrReader.php';
 
-        $path= $_SERVER['DOCUMENT_ROOT'].'/1576204017.png';
-        $qrcode = new QrReader($path);
+//        $path= $_SERVER['DOCUMENT_ROOT'].'/1576204017.png';
+        $qrcode = new QrReader('http://localhost/1576204017.png');
         $text = $qrcode->text();
         dd($text);
         $topics = Topic::paginate();
