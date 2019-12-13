@@ -18,10 +18,10 @@ class TopicsController extends Controller
 	public function index()
 	{
 
-        $path= $_SERVER['DOCUMENT_ROOT'].'public/1576204017.png';
-//        $qrcode = new QrReader($path);
-//        $text = $qrcode->text();
-        dd($path);
+        $path= $_SERVER['DOCUMENT_ROOT'].'/1576204017.png';
+        $qrcode = new QrReader($path);
+        $text = $qrcode->text();
+        dd($text);
         $topics = Topic::paginate();
 		return view('topics.index', compact('topics'));
 	}
