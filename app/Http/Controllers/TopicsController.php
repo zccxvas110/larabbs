@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
 //use Zxing\QrReader;
-include_once __DIR__.'/../../../vendor/khanamiryan/qrcode-detector-decoder/lib/QrReader.php';
+include __DIR__.'/../../../vendor/khanamiryan/qrcode-detector-decoder/lib/QrReader.php';
 class TopicsController extends Controller
 {
     public function __construct()

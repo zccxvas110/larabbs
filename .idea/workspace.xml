@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cda78e-b0f5-4a86-9e7d-7312463c6736" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -185,7 +184,7 @@
       <workItem from="1576041224173" duration="17929000" />
       <workItem from="1576117755105" duration="1764000" />
       <workItem from="1576139753734" duration="1382000" />
-      <workItem from="1576204169327" duration="2581000" />
+      <workItem from="1576204169327" duration="2773000" />
     </task>
     <servers />
   </component>
