@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cda78e-b0f5-4a86-9e7d-7312463c6736" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/1576204017.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Topic.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Topic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -141,13 +138,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\www\larabbs\larabbs" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\www\larabbs\larabbs\public" />
       <recent name="F:\www\larabbs\larabbs\app\Models" />
       <recent name="F:\www\larabbs\larabbs\app" />
       <recent name="F:\www\larabbs\larabbs\resources\views\shared" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\www\larabbs\larabbs" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,7 +186,8 @@
       <workItem from="1575959170634" duration="12537000" />
       <workItem from="1576041224173" duration="17929000" />
       <workItem from="1576117755105" duration="1764000" />
-      <workItem from="1576139753734" duration="618000" />
+      <workItem from="1576139753734" duration="1382000" />
+      <workItem from="1576204169327" duration="330000" />
     </task>
     <servers />
   </component>
