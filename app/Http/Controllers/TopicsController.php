@@ -21,7 +21,7 @@ class TopicsController extends Controller
 //        $qrcode = new QrReader('https://gailvlun-1255938799.cos.ap-guangzhou.myqcloud.com/h5/2019/img/qrcode.png');
 //        $text = $qrcode->text();
 //        dd($text);
-//        $topics = Topic::paginate();
+        $topics = Topic::paginate();
 		return view('topics.index', compact('topics'));
 	}
 
