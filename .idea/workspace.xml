@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cda78e-b0f5-4a86-9e7d-7312463c6736" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/topics/_sidebar.blader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/topics/_topic_list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/index.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +189,10 @@
       <workItem from="1576041224173" duration="17929000" />
       <workItem from="1576117755105" duration="1764000" />
       <workItem from="1576139753734" duration="1382000" />
-      <workItem from="1576204169327" duration="6999000" />
+      <workItem from="1576204169327" duration="12656000" />
+      <workItem from="1576491051903" duration="14000" />
+      <workItem from="1576656860268" duration="1200000" />
+      <workItem from="1576734644276" duration="2309000" />
     </task>
     <servers />
   </component>
