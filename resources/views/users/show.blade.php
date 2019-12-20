@@ -33,7 +33,7 @@
           <div class="nav nav-tabs">
             <li class="nav-item"><a class="nav-link active  ba-transparent" href="#">Ta 的话题</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Ta 的回复</a></li>
-            @include('users.topics',['topics'=>$user->topics()->recent()->pageinate(5)])
+            @include('users._topics',['topics'=>$user->topics()->recent()->pageinate(5)])
           </div>
         </div>
       </div>
