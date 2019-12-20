@@ -15,13 +15,12 @@ class TopicsController extends Controller
         $this->middleware('auth', ['except' => ['index', 'show']]);
     }
 
-	public function index()
+	public function index(Request $request,Topic $topic)
 	{
 
-//        $qrcode = new QrReader('https://gailvlun-1255938799.cos.ap-guangzhou.myqcloud.com/h5/2019/img/qrcode.png');
-//        $text = $qrcode->text();
-//        dd($text);
-        $topics = Topic::with('user','category')->paginate(30);
+        $topics = $topic->withOrder($request->order)
+                        ->with('user','category')
+                        ->paginate(20);
 
 		return view('topics.index', compact('topics'));
 	}
