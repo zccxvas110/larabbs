@@ -2,11 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use tUTH;
 use App\Models\Topic;
+use App\Models\Category;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
 use Zxing\QrReader;
+use Vtiful\Kernel\Excel;
 
 class TopicsController extends Controller
 {
@@ -17,7 +20,16 @@ class TopicsController extends Controller
 
 	public function index(Request $request,Topic $topic)
 	{
-
+        $excel = new Excel();
+        $filePath = $excel->fileName('tutorial01.xlsx', 'sheet1')
+            ->header(['Item', 'Cost'])
+            ->data([
+                ['Rent', 1000],
+                ['Gas',  100],
+                ['Food', 300],
+                ['Gym',  50],
+            ])
+            ->output();
         $topics = $topic->withOrder($request->order)
                         ->with('user','category')
                         ->paginate(20);
@@ -32,12 +44,16 @@ class TopicsController extends Controller
 
 	public function create(Topic $topic)
 	{
-		return view('topics.create_and_edit', compact('topic'));
+	    $categorias = Category::all();
+		return view('topics.create_and_edit', compact('topic','categorias'));
 	}
 
-	public function store(TopicRequest $request)
+	public function store(TopicRequest $request,Topic $topic)
 	{
-		$topic = Topic::create($request->all());
+        $topic->fill($request->all());
+        $topic->user_id = Auth::id();
+        $topic->save();
+
 		return redirect()->route('topics.show', $topic->id)->with('message', 'Created successfully.');
 	}
 
