@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39cda78e-b0f5-4a86-9e7d-7312463c6736" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/editor/css/simditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/editor/js/hotkeys.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/editor/js/module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/editor/js/simditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/editor/js/uploader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +200,7 @@
       <workItem from="1577172239514" duration="526000" />
       <workItem from="1577179621394" duration="2382000" />
       <workItem from="1577412333015" duration="3303000" />
-      <workItem from="1577429225498" duration="3770000" />
+      <workItem from="1577429225498" duration="4311000" />
     </task>
     <servers />
   </component>
