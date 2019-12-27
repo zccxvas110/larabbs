@@ -20,7 +20,8 @@ class TopicsController extends Controller
 
 	public function index(Request $request,Topic $topic)
 	{
-        $excel = new Excel();
+
+        $excel = new Excel(['path' => '/public/upload']);
         $filePath = $excel->fileName('tutorial01.xlsx', 'sheet1')
             ->header(['Item', 'Cost'])
             ->data([
