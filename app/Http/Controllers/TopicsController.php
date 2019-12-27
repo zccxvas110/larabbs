@@ -9,6 +9,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
 use Zxing\QrReader;
+use Auth;
 
 
 class TopicsController extends Controller
