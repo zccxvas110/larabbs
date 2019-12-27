@@ -31,7 +31,7 @@ class TopicsController extends Controller
                 ['Gym',  50],
             ])
             ->output();
-        dd($filePath);
+
         $topics = $topic->withOrder($request->order)
                         ->with('user','category')
                         ->paginate(20);
