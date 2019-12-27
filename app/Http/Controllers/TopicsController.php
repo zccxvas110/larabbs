@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\TopicRequest;
 use Zxing\QrReader;
-use Vtiful\Kernel\Excel;
+
 
 class TopicsController extends Controller
 {
@@ -21,16 +21,7 @@ class TopicsController extends Controller
 	public function index(Request $request,Topic $topic)
 	{
 
-        $excel = new Excel(['path' => $_SERVER['DOCUMENT_ROOT'].'/upload']);
-        $filePath = $excel->fileName('tutorial01.xlsx', 'sheet1')
-            ->header(['Item', 'Cost'])
-            ->data([
-                ['Rent', 1000],
-                ['Gas',  100],
-                ['Food', 300],
-                ['Gym',  50],
-            ])
-            ->output();
+
 
         $topics = $topic->withOrder($request->order)
                         ->with('user','category')
